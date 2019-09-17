@@ -49,29 +49,36 @@
     </reporting>
 
     <dependencies>
+
+        <!-- selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.6.0</version>
         </dependency>
+
+        <!-- junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+
+        <!-- cucumber-jvm -->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-jvm</artifactId>
             <version>1.2.5</version>
             <type>pom</type>
         </dependency>
+
+        <!-- cucumber-junit -->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>1.2.5</version>
             <scope>test</scope>
         </dependency>
-
 
         <!-- cucumber-core -->
         <dependency>

@@ -2,50 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a2d2f66-bcaa-40b9-b96d-932e93cd8dd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/Section20_lecture032.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/src/test/java/Features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/src/test/java/Runners/Main_Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/src/test/java/Step_Definitions/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section25/Section25_lecture041/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section25/Section25_lecture041/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section25/Section25_lecture041/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section25/Section25_lecture041/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section25/Section25_lecture041/Section25_lecture041.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section25/Section25_lecture041/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section25/Section25_lecture041/src/test/java/Features/ContactUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Section26_lecture043.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/ContactUsReset.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Features/ContactUsSubmit.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/Drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/Drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/Drivers/operadriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/operadriver01.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/Section27_lecture045.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Features/ContactUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Resources/Drivers/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Resources/Drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Resources/Drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Resources/Drivers/operadriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Resources/operadriver01.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Section18/Section18_lecture027/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section18/Section18_lecture027/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Section19/Section19_lecture029/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section19/Section19_lecture029/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Section19/Section19_lecture029/target/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section19/Section19_lecture029/target/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Step_Definitions/ContactUsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section25/Section25_lecture041/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section25/Section25_lecture041/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/ContactUsSubmit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/ContactUsSubmit.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section27/Section27_lecture045/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Features/ContactUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Features/ContactUs.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,16 +18,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="156" column="19" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="156" selection-end-column="19" />
+            <state>
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
               <folding>
                 <element signature="n#build#0;n#project#0;n#!!top" />
                 <element signature="n#reporting#0;n#project#0;n#!!top" />
@@ -75,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactUsSubmit.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="220">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -87,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactUsReset.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state>
+              <caret selection-end-line="10" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -128,6 +89,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,19 +116,25 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Section26_lecture043" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Section26_lecture043" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Section27/Section27_lecture045" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -198,16 +167,17 @@
       <updated>1568666076219</updated>
       <workItem from="1568666079061" duration="792000" />
       <workItem from="1568666896784" duration="605000" />
+      <workItem from="1568723938385" duration="1227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1397000" />
+    <option name="totallyTimeSpent" value="2624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="297" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,29 +211,29 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactUsReset.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactUsSubmit.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="156" column="19" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="156" selection-end-column="19" />
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
           <folding>
             <element signature="n#build#0;n#project#0;n#!!top" />
             <element signature="n#reporting#0;n#project#0;n#!!top" />
             <element signature="n#dependencies#0;n#project#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactUsReset.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/ContactUsSubmit.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -12,7 +12,6 @@ Feature: Submit data to webdriveruniversity.com using contact us form
     When I click on the submit button
     Then the information should successfully be submitted via the contact us form
 
-
   Scenario: Submit non valid data via contact us form
     And I enter a non valid first name
     And I enter a non valid last name
