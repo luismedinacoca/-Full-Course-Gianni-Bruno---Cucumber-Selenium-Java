@@ -1,7 +1,7 @@
 Feature: Submit data to webdriveruniversity.com using contact us form
 
   Background:
-    Given I access webdriveruniversity
+    Given I access "http://webdriveruniversity.com/"
     When I click on the contact us button
 
   Scenario: Submit valid data via contact us form

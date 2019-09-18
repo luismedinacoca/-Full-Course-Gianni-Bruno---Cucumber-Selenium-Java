@@ -1,11 +1,14 @@
 package Step_Definitions;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -19,7 +22,7 @@ public class Login_Steps {
     // <Begin>************************************** Hook **************************************
     @Before
     public void setup(){
-        System.setProperty("webdriver.chrome.driver","D:\\Programming\\[Cucumber]\\Gianni Bruno - [Full course] Cucumber Selenium Java\\Section27\\Section27_lecture045\\src\\test\\java\\Resources\\Drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","D:\\Programming\\[Cucumber]\\Gianni Bruno - [Full course] Cucumber Selenium Java\\Section28\\Section28_lecture049\\src\\test\\java\\Resources\\Drivers\\chromedriver.exe");
         this.driver = new ChromeDriver();
         this.driver.manage().window().maximize();
         this.driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
@@ -34,52 +37,75 @@ public class Login_Steps {
         this.driver.quit();
         this.driver = null;
     }
+
     //  <end> ************************************** Hook **************************************
 
-
-    @Given("^I access webdriveruniversity\\.com$")
-    public void i_access_webdriveruniversity_com() throws Throwable {
+    @Given("^I access \"([^\"]*)\"$")
+    public void iAccess(String url) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         //throw new PendingException();
+
+        driver.get(url);
     }
 
     @When("^I click on the login portal button$")
     public void i_click_on_the_login_portal_button() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+        Thread.sleep(3000);
+        driver.findElement(By.xpath("//a[contains(@id, 'login-portal')]")).click();
     }
 
-    @When("^I enter a username$")
+    @And("^I enter a username$")
     public void i_enter_a_username() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+
+        @SuppressWarnings("unused")
+        String winHandleBefore = driver.getWindowHandle();
+        //Perform the click operation that opens new window
+        //Switch to new window opened
+        for(String winHandle : driver.getWindowHandles()){
+            driver.switchTo().window(winHandle);
+        }
+
+        driver.findElement(By.id("text")).sendKeys("webdriver");
     }
 
-    @When("^I enter a \"([^\"]*)\" password$")
-    public void i_enter_a_password(String arg1) throws Throwable {
+    @And("^I enter a \"([^\"]*)\" password$")
+    public void i_enter_a_password(String password) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
+        //throw new PendingException();
 
-    @When("^I click on the login button$")
+        driver.findElement(By.id("password")).sendKeys(password);
+    }
+    @And("^I click on the login button$")
     public void i_click_on_the_login_button() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+
+        driver.findElement(By.xpath("//*[contains(@id, 'login-button')]")).click();
     }
+
     @Then("^I should be presented with a successful validation alert$")
     public void i_should_be_presented_with_a_successful_validation_alert() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+
+        Alert alert = driver.switchTo().alert();
+        System.out.println(alert.getText());
+        Assert.assertEquals("validation failed666", alert.getText());
     }
 
-    @When("^I enter an \"([^\"]*)\" password$")
-    public void i_enter_an_password(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
     @Then("^I should be presented with an unsuccessful validation alert$")
     public void i_should_be_presented_with_an_unsuccessful_validation_alert() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        //throw new PendingException();
+
+        Alert alert = driver.switchTo().alert();
+        System.out.println(alert.getText());
+
+        //actual expects
+        Assert.assertEquals("validation failed", alert.getText());
     }
 }
