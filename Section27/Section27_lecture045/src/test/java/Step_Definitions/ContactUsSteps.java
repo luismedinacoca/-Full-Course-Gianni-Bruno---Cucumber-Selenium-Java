@@ -18,8 +18,6 @@ public class ContactUsSteps {
     //create a webdriver object
     private WebDriver driver;
 
-
-
     //String url = "http://webdriveruniversity.com/";
     // <Begin>************************************** Hook **************************************
     @Before
