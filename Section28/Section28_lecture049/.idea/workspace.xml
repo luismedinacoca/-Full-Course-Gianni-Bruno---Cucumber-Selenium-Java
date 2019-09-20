@@ -2,23 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca3608a7-c57f-445b-800f-e9f0143bd238" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/src/test/java/Features/ContactUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/src/test/java/Others/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/src/test/java/Others/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/src/test/java/Others/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/src/test/java/Others/operadriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/src/test/java/Others/operadriver01.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/src/test/java/Step_Definitions/ContactUsStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Section26/Section26_lecture043/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section26/Section26_lecture043/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Section26/Section26_lecture043/Section26_lecture043.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053/Section29_lecture053.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/Section30_lecture058.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/src/test/java/Features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/src/test/java/Others/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/src/test/java/Others/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/src/test/java/Others/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/src/test/java/Others/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/src/test/java/Others/operadriver01.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/src/test/java/Step_Definitions/Login_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section30/Section30_lecture058/target/test-classes/Step_Definitions/Login_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section11/Section11_lecture017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section11/Section11_lecture017/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section11/Section11_lecture017/Section11_lecture017.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section20/Section20_lecture032/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section20/Section20_lecture032/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section20/Section20_lecture032/Section20_lecture032.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Section27/Section27_lecture045/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Step_Definitions/ContactUsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/src/test/java/Step_Definitions/ContactUsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section27/Section27_lecture045/target/test-classes/Step_Definitions/ContactUsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section27/Section27_lecture045/target/test-classes/Step_Definitions/ContactUsSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Step_Definitions/Login_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Step_Definitions/Login_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section29/Section29_lecture053_lastName_DataTable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053_lastName_DataTable/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section29/Section29_lecture053_lastName_DataTable/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053_lastName_DataTable/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section29/Section29_lecture053_lastName_DataTable/target/test-classes/Step_Definitions/ContactUsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section29/Section29_lecture053_lastName_DataTable/target/test-classes/Step_Definitions/ContactUsSteps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +110,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -116,6 +125,8 @@
       <workItem from="1568826572740" duration="5643000" />
       <workItem from="1568909235301" duration="13000" />
       <workItem from="1568920910005" duration="1513000" />
+      <workItem from="1569005803662" duration="160000" />
+      <workItem from="1569012987785" duration="859000" />
     </task>
     <servers />
   </component>
