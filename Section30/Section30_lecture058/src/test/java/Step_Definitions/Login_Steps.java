@@ -34,6 +34,7 @@ public class Login_Steps {
     public void tearDown() throws InterruptedException {
         Thread.sleep(3000); //holding the page 3 seconds before it's tearing down
         this.driver.manage().deleteAllCookies();
+        this.driver.close();
         this.driver.quit();
         this.driver = null;
     }
