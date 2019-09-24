@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" junit="true" name="D:/Programming/[Cucumber]/Gianni Bruno - [Full course] Cucumber Selenium Java/Section35/Section35_lecture082">
+        <classes>
+            <class name="Runners.Main_Runner_Feature"/>
+        </classes>
+    </test>
+</suite>
