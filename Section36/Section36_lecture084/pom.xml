@@ -36,6 +36,7 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
+                        <!--testErrorIgnore>false</testErrorIgnore-->
                         <testFailureIgnore>false</testFailureIgnore>
                     </configuration>
                 </plugin>
@@ -45,7 +46,6 @@
                     <artifactId>maven-surefire-report-plugin</artifactId>
                     <version>3.0.0-M3</version>
                 </plugin>
-
             </plugins>
         </pluginManagement>
     </build>
@@ -130,12 +130,12 @@
             <version>1.2.5</version>
         </dependency>
 
-        <!-- cucumber-testng
+        <!-- cucumber-testng  -->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-testng</artifactId>
             <version>1.2.5</version>
-        </dependency> -->
+        </dependency>
 
         <!-- Extent Reports -->
         <dependency>
@@ -163,7 +163,7 @@
             <version>2.0.4</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <!-- testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>

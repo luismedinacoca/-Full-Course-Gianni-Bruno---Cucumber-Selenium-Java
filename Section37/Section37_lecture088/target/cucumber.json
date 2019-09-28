@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11661396454,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AccessUrl_Steps.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Access to an URL through Chrome",
+        "description": "",
+        "id": "submit-data-to-different-urls;access-to-an-url-through-chrome;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 6871742658,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AccessUrl_Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2079179770,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.linkedin.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.linkedin.com",
+                  "offset": 10
+                }
+              ],
+              "location": "AccessUrl_Steps.i_access(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8348719771,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AccessUrl_Steps.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Access to an URL through Chrome",
+        "description": "",
+        "id": "submit-data-to-different-urls;access-to-an-url-through-chrome;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6820078640,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AccessUrl_Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3309521114,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"http://www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com",
+                  "offset": 10
+                }
+              ],
+              "location": "AccessUrl_Steps.i_access(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8321012194,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AccessUrl_Steps.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Access to an URL through Chrome",
+        "description": "",
+        "id": "submit-data-to-different-urls;access-to-an-url-through-chrome;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 8919870984,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AccessUrl_Steps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2480145377,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.udemy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.udemy.com",
+                  "offset": 10
+                }
+              ],
+              "location": "AccessUrl_Steps.i_access(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Submit data to different urls",
+    "description": "",
+    "id": "submit-data-to-different-urls",
+    "keyword": "Feature",
+    "uri": "AccessUrl.feature"
+  }
+]

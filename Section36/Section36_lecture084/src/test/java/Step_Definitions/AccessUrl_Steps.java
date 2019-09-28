@@ -39,5 +39,4 @@ public class AccessUrl_Steps {
         //Thread.sleep(5000);
         driver.get(url);
     }
-
 }
