@@ -8,9 +8,7 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.concurrent.TimeUnit;
-
 
 public class Products_Steps {
 
@@ -27,7 +25,6 @@ public class Products_Steps {
         Thread.sleep(5000);
     }
 
-
     @After
     public void tearDown() throws InterruptedException {
         //Thread.sleep(6000);
@@ -35,7 +32,6 @@ public class Products_Steps {
         driver.quit();
         //driver.close();
     }
-
 
     @Given("^user navigates to \"([^\"]*)\" website$")
     public void user_navigates_to_website(String url) throws InterruptedException {
@@ -54,7 +50,10 @@ public class Products_Steps {
     }
 
     @Then("^user should be presented with a promo alert$")
-    public void user_should_be_presented_with_a_promo_alert()  {
-        System.out.println("passed");
+    public void user_should_be_presented_with_a_promo_alert() throws InterruptedException {
+        //System.out.println("passed");
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//button[text()='Proceed']")).click();
+
     }
 }
