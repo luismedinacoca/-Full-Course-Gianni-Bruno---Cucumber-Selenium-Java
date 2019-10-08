@@ -65,8 +65,8 @@ public class DriverFactory {
             System.out.println("Unable to load browser " + e.getMessage());
         } finally {
             if (driver!=null){
-                driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
                 Thread.sleep(5000);
+                driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
             } else{
                 System.out.println("Driver is null");
             }

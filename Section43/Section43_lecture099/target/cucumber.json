@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 11873959471,
+              "duration": 10086456495,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 9828765590,
+              "duration": 8279678836,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 7506658999,
+              "duration": 6712515273,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 1477139302,
+              "duration": 725442931,
               "status": "passed"
             },
             "match": {
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2436232539,
+              "duration": 4138646337,
               "status": "passed"
             },
             "line": 3,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 5411807808,
+              "duration": 3143227189,
               "status": "passed"
             },
             "line": 4,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 1555425244,
+              "duration": 802750063,
               "status": "passed"
             },
             "line": 5,
@@ -99,7 +99,7 @@
           },
           {
             "result": {
-              "duration": 370965928,
+              "duration": 199328616,
               "status": "passed"
             },
             "line": 7,
@@ -111,7 +111,7 @@
           },
           {
             "result": {
-              "duration": 437828132,
+              "duration": 213105025,
               "status": "passed"
             },
             "line": 8,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 3412156546,
+              "duration": 1881404545,
               "status": "passed"
             },
             "line": 10,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 3477945737,
+              "duration": 3062274347,
               "status": "passed"
             },
             "line": 11,
@@ -161,848 +161,6 @@
     "description": "",
     "id": "submit-data-to-webdriveruniversity.com-using-contact-us-form",
     "keyword": "Feature",
-    "uri": "ContactUs.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 9705491695,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 9064042325,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.setup()"
-            }
-          }
-        ],
-        "line": 8,
-        "name": "validate promo code alert is visible when clickin ob the special offers link",
-        "description": "",
-        "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 7195137621,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1520507331,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8809154082,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\" website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
-                  "offset": 19
-                }
-              ],
-              "location": "Products_Steps.user_navigates_to_website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4269648444,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user clicks on \"special-offers\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "special-offers",
-                  "offset": 16
-                }
-              ],
-              "location": "Products_Steps.user_clicks_on(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2161972216,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should be presented with a promo alert",
-            "match": {
-              "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 8980135314,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 8779890032,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.setup()"
-            }
-          }
-        ],
-        "line": 9,
-        "name": "validate promo code alert is visible when clickin ob the special offers link",
-        "description": "",
-        "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 7089459675,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1119364429,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8980875104,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\" website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
-                  "offset": 19
-                }
-              ],
-              "location": "Products_Steps.user_navigates_to_website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4394907221,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user clicks on \"cameras\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "cameras",
-                  "offset": 16
-                }
-              ],
-              "location": "Products_Steps.user_clicks_on(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2169571821,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should be presented with a promo alert",
-            "match": {
-              "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 9695715737,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 10624085091,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.setup()"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "validate promo code alert is visible when clickin ob the special offers link",
-        "description": "",
-        "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 7828227848,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1742681872,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8767868962,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\" website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
-                  "offset": 19
-                }
-              ],
-              "location": "Products_Steps.user_navigates_to_website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7207927750,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user clicks on \"new-laptops\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "new-laptops",
-                  "offset": 16
-                }
-              ],
-              "location": "Products_Steps.user_clicks_on(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2235657562,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should be presented with a promo alert",
-            "match": {
-              "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 9122271404,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 8785002982,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.setup()"
-            }
-          }
-        ],
-        "line": 11,
-        "name": "validate promo code alert is visible when clickin ob the special offers link",
-        "description": "",
-        "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 6670837540,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1400020875,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8795538124,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\" website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
-                  "offset": 19
-                }
-              ],
-              "location": "Products_Steps.user_navigates_to_website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7465187344,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user clicks on \"used-laptops\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "used-laptops",
-                  "offset": 16
-                }
-              ],
-              "location": "Products_Steps.user_clicks_on(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2160812811,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should be presented with a promo alert",
-            "match": {
-              "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 8962763630,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 9650907618,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.setup()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "validate promo code alert is visible when clickin ob the special offers link",
-        "description": "",
-        "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;6",
-        "after": [
-          {
-            "result": {
-              "duration": 6877206369,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 3315828595,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 10089759752,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\" website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
-                  "offset": 19
-                }
-              ],
-              "location": "Products_Steps.user_navigates_to_website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4654656644,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user clicks on \"game-consoles\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "game-consoles",
-                  "offset": 16
-                }
-              ],
-              "location": "Products_Steps.user_clicks_on(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2054364748,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should be presented with a promo alert",
-            "match": {
-              "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 8686794170,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 8945069654,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.setup()"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "validate promo code alert is visible when clickin ob the special offers link",
-        "description": "",
-        "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;7",
-        "after": [
-          {
-            "result": {
-              "duration": 7023015674,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 892597050,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8892867155,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\" website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
-                  "offset": 19
-                }
-              ],
-              "location": "Products_Steps.user_navigates_to_website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7018614307,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user clicks on \"components\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "components",
-                  "offset": 16
-                }
-              ],
-              "location": "Products_Steps.user_clicks_on(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2189661477,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should be presented with a promo alert",
-            "match": {
-              "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 8386583694,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 8732757463,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.setup()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "validate promo code alert is visible when clickin ob the special offers link",
-        "description": "",
-        "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;8",
-        "after": [
-          {
-            "result": {
-              "duration": 6957720499,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1800542819,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8753177521,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\" website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
-                  "offset": 19
-                }
-              ],
-              "location": "Products_Steps.user_navigates_to_website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6597376106,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user clicks on \"desktop-systems\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "desktop-systems",
-                  "offset": 16
-                }
-              ],
-              "location": "Products_Steps.user_clicks_on(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2075096873,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should be presented with a promo alert",
-            "match": {
-              "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 8676617287,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 8535829251,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.setup()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "validate promo code alert is visible when clickin ob the special offers link",
-        "description": "",
-        "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;9",
-        "after": [
-          {
-            "result": {
-              "duration": 6665844834,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ContactUS_Steps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 724577803,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Products_Steps.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 9097220073,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\" website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
-                  "offset": 19
-                }
-              ],
-              "location": "Products_Steps.user_navigates_to_website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6912715269,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user clicks on \"audio\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "audio",
-                  "offset": 16
-                }
-              ],
-              "location": "Products_Steps.user_clicks_on(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2117200065,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user should be presented with a promo alert",
-            "match": {
-              "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Products",
-    "description": "",
-    "id": "products",
-    "keyword": "Feature",
-    "uri": "Products.feature"
+    "uri": "src/test/java/Features/ContactUs.feature"
   }
 ]

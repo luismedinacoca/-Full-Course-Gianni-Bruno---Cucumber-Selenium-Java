@@ -39,7 +39,6 @@ public class Products_Steps extends DriverFactory {
     @When("^user clicks on \"([^\"]*)\"$")
     public void user_clicks_on(String locator) throws InterruptedException {
         Thread.sleep(2000);
-        //driver.findElement(By.cssSelector(locator));
         // //*[@id="special-offers"]
         driver.findElement(By.xpath("//*[@id=\""+locator+"\"]")).click();
         System.out.println(locator);
