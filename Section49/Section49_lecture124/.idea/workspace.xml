@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="089c2144-f70f-41c6-9710-84f7cc9afd38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section49_lecture124.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Data/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Drivers/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/ContactUs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Products.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Page_Objects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Page_Objects/ContactUs_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Page_Objects/Products_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Step_Definitions/ContactUs_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Step_Definitions/MasterHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Step_Definitions/Products_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/Section47-lecture114_secondChance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/Section47_lecture114_secondChance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Data/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Data/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Step_Definitions/ContactUs_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Step_Definitions/ContactUs_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Step_Definitions/MasterHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Step_Definitions/MasterHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Step_Definitions/Products_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Step_Definitions/Products_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Utils/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Utils/ReadConfigFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/properties/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Step_Definitions/ContactUs_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Step_Definitions/ContactUs_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Step_Definitions/MasterHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Step_Definitions/MasterHooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Step_Definitions/Products_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Step_Definitions/Products_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Utils/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Utils/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Utils/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Utils/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Utils/ReadConfigFile.class" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1SCFeUQWQNbRNdbzNMGs1CvvFXY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/87.1. BasePage_SubPages" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\[Cucumber]\Gianni Bruno - [Full course] Cucumber Selenium Java\Section49\Section49_lecture124\src\test\java\Drivers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: Products">
+    <configuration name="Feature: ContactUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/ContactUs.feature" />
+      <option name="GLUE" value="Step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Section49_lecture124" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: ContactUs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Products" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Products.feature" />
+      <option name="GLUE" value="Step_Definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Section49_lecture124" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Feature: Products" />
+        <item itemvalue="Cucumber java.Feature: ContactUs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="089c2144-f70f-41c6-9710-84f7cc9afd38" name="Default Changelist" comment="" />
+      <created>1571059765231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571059765231</updated>
+      <workItem from="1571059768885" duration="11872000" />
+      <workItem from="1571081636474" duration="4683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Step_Definitions/ContactUs_Steps.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Page_Objects/ContactUs_Page.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Step_Definitions/MasterHooks.java</url>
+          <line>8</line>
+          <properties class="Step_Definitions.MasterHooks" method="setup">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java</url>
+          <line>24</line>
+          <properties field="contactUsPage" class="Utils.DriverFactory" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java</url>
+          <line>22</line>
+          <properties field="driver" class="Utils.DriverFactory" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CucumberJavaRunConfigurationType">
+        <watch expression="((NullPointerException)t).stackTrace[1]" custom="java.lang.NullPointerException" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

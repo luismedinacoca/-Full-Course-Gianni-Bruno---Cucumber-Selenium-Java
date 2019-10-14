@@ -8,7 +8,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
@@ -23,7 +22,6 @@ public class ContactUs_Steps extends DriverFactory {
     /**
     @Given("^I access webdriveruniversity contact us form$")
     public void i_access_webdriveruniversity_contact_us_form()  {
-
         driver.navigate().to("http://webdriveruniversity.com/Contact-Us/contactus.html");
     }*/
 
@@ -37,7 +35,7 @@ public class ContactUs_Steps extends DriverFactory {
     @And("^I enter a valid last name$")
     public void i_enter_a_valid_last_name(DataTable data_table) {
 
-        // ***************************** DATA_TABLE INPUTS *****************************
+        /***************************** DATA_TABLE INPUTS *****************************/
         List<List<String>> data = data_table.raw();
 
         System.out.println("data = " + data);
@@ -46,7 +44,7 @@ public class ContactUs_Steps extends DriverFactory {
         System.out.println("data column number " + lengthColumn);
 
         for (int i=0; i < lengthColumn; i++){
-            driver.findElement(By.xpath("//input[contains(@name,'last_name')]")).sendKeys(data.get(0).get(i) + " ");
+            driver.findElement(By.xpath("//input[contains(@name,'last_name')]")).sendKeys(data.get(data.size() - 1).get(i) + " ");
         }
     }
 

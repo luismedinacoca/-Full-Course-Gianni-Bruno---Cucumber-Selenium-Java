@@ -6,14 +6,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.internal.Yaml;
+import org.yaml.snakeyaml.Yaml;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-
 import static Utils.Constant.*;
-import static jdk.nashorn.internal.codegen.OptimisticTypesPersistence.load;
+
 
 public class DriverFactory {
 
@@ -25,24 +24,25 @@ public class DriverFactory {
             /**********************************************************************************
              **READ CONFIG FILE
              **********************************************************************************/
-
             //create a Yaml object
             Yaml yaml = new Yaml();
 
-            //get the path of the project
+            //getting the path project
             String projectPath = System.getProperty("user.dir");
 
             // create a File object
-            File file = new File(projectPath.concat("src/test/java/Data/config.yaml"));
+            File file = new File(projectPath.concat("\\src\\test\\java\\Data\\config.yaml"));
+            //System.out.println(projectPath.concat("\\src\\test\\java\\Data\\config.yaml"));
 
             //Create a input stream
             FileInputStream inputStream = new FileInputStream(file);
 
             //Parse the yaml file and create a list/map that contains inner map
-            Map<String,  Object> configMap = (Map<String, Object>)yaml.load(inputStream);
+            Map<String, Map<String, Object>> configMap = (Map<String, Map<String, Object>>)yaml.load(inputStream);
 
             //create variable
-            String browserName = configMap.get("browser").toString();
+            String browserName = configMap.get("Data").get("browser").toString();
+            System.out.println("browser name is: " + browserName);
 
             switch(browserName){
                 case "firefox":

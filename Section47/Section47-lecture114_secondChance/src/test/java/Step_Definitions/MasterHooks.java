@@ -8,7 +8,6 @@ public class MasterHooks extends DriverFactory {
 
     @Before
     public void setup(){
-        //DriverFactory factory = new DriverFactory();
         driver = getDriver();
     }
 
@@ -17,7 +16,7 @@ public class MasterHooks extends DriverFactory {
         if(driver != null){
             driver.manage().deleteAllCookies();
             driver.quit();
-            driver = null;
+            driver = null;  /** very important  ========> DO NOT FORGET*/
         }
     }
 }

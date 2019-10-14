@@ -29,5 +29,5 @@ public class Products_Steps extends DriverFactory {
         //System.out.println("passed");
         Thread.sleep(2000);
         driver.findElement(By.xpath("//button[text()='Proceed']")).click();
-
-    }}
+    }
+}
