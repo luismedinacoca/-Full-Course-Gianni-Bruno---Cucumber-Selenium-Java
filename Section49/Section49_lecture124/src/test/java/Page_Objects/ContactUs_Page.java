@@ -1,18 +1,20 @@
 package Page_Objects;
 
+import Utils.DriverFactory;
 import cucumber.api.DataTable;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-
 import java.io.IOException;
 import java.util.List;
 
 public class ContactUs_Page extends BasePage{
 
     /** Contact Us Page Locators: **/
-    public @FindBy(xpath = "//input[@name = 'first_name']") WebElement textField_FirstName;
+    public @FindBy(xpath = "//input[@name='first_name']") WebElement textField_FirstName;
     public @FindBy(xpath = "//input[@name = 'last_name']") WebElement textField_LastName;
     public @FindBy(xpath = "//input[@name = 'email']") WebElement textField_EmailAddress;
     public @FindBy(xpath = "//textarea[@name = 'message']") WebElement textField_Message;
@@ -24,13 +26,8 @@ public class ContactUs_Page extends BasePage{
     }
 
     public void getContactUsPage(String url) throws IOException, InterruptedException {
-        String ContactUsPage = "http://webdriveruniversity.com/Contact-Us/contactus.html";
-        if (url == ContactUsPage){
-            driver.navigate().to(ContactUsPage);
-            Thread.sleep(3000);
-            //return new ContactUs_Page();
-        }else
-            System.out.println("There is a url issue");
+        driver.navigate().to(url);
+        Thread.sleep(5000);
     }
 
     public void enterFirstName(String firstName) throws Exception{
@@ -60,8 +57,8 @@ public class ContactUs_Page extends BasePage{
     }
 
     public void confirmContactUsFormSubmissionWasSuccessful() throws Exception {
-        WebElement thanksContactUsPage = getDriver().findElement(By.xpath("//*[@id='contact_reply']/h1"));
+        WebElement thanksContactUsPage = driver.findElement(By.xpath(".//*[@id='contact_reply']/h1"));
         WaitUntilWebElementIsVisible(thanksContactUsPage);
-        Assert.assertEquals("thanksyouforyourmessage", thanksContactUsPage.getText().toLowerCase().replaceAll("[ ()0-9]",""));
+        Assert.assertEquals("thankyouforyourmessage!", thanksContactUsPage.getText().toLowerCase().replaceAll("[ ()0-9]", ""));
     }
 }

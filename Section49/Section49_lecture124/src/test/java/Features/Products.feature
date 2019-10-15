@@ -4,9 +4,12 @@ Feature: Products
     When user clicks on "<button>"
     Then user should be presented with a promo alert
     Examples:
-      | url                                                            | button          |
-      | http://webdriveruniversity.com/Page-Object-Model/products.html | special-offers  |
-      | http://webdriveruniversity.com/Page-Object-Model/products.html | cameras         |
-      | http://webdriveruniversity.com/Page-Object-Model/products.html | new-laptops     |
-      | http://webdriveruniversity.com/Page-Object-Model/products.html | used-laptops    |
-      | http://webdriveruniversity.com/Page-Object-Model/products.html | game-consoles   |
+      | url                                                            | button                  |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='amp-img']      |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='camera-img']   |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='laptop1']      |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='laptop2']      |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='nintendo']     |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='graphic-card'] |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='computer']     |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='boombox']      |

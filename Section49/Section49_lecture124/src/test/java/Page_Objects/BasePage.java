@@ -12,11 +12,15 @@ import java.awt.*;
 import java.io.IOException;
 import java.util.List;
 
-public class BasePage extends DriverFactory {
+public class BasePage /*extends DriverFactory*/ {
+    protected WebDriver driver;
     protected WebDriverWait wait;
     protected JavascriptExecutor jsExecutor;
 
     public BasePage() throws IOException {
+
+        driver = DriverFactory.getInstance().getDriver();
+
         this.wait = new WebDriverWait(driver, 15);
         jsExecutor = ((JavascriptExecutor) driver);
     }

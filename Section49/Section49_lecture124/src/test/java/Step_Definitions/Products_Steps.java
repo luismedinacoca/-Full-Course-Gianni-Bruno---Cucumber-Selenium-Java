@@ -1,15 +1,27 @@
 package Step_Definitions;
 
 import Page_Objects.BasePage;
+import Page_Objects.Products_Page;
 import Utils.DriverFactory;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 import java.io.IOException;
 
-public class Products_Steps extends DriverFactory {
+public class Products_Steps /*extends DriverFactory*/{
+
+    private WebDriver driver;
+    public static Products_Page productsPage;
+
+    public Products_Steps(){
+        this.driver = DriverFactory.getInstance().getDriver();
+        productsPage = PageFactory.initElements(driver, Products_Page.class);
+    }
+
     @Given("^user navigates to \"([^\"]*)\" website$")
     public void user_navigates_to_website(String url) throws InterruptedException {
         /**Thread.sleep(6000);*/
@@ -24,7 +36,7 @@ public class Products_Steps extends DriverFactory {
         Thread.sleep(2000);*/
         BasePage basePage = new BasePage();
         basePage.WaitUntilWebElementIsVisibleUsingByLocator(By.xpath(locator));
-        getDriver().findElement(By.xpath(locator)).click();
+        driver.findElement(By.xpath(locator)).click();
     }
 
     @Then("^user should be presented with a promo alert$")

@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Products_Page extends BasePage {
     /** Locators **/
-    public @FindBy(xpath = "//*[@id='special-offers']") WebElement button_SpecialOffers;
+    public @FindBy(xpath = "//*[@id='container-special-offers']") WebElement button_SpecialOffers;
     public @FindBy(xpath = "//*[@id='cameras']") WebElement button_Camara;
     public @FindBy(xpath = "//*[@id='container-product2']") WebElement button_NewLaptops;
     public @FindBy(xpath = "//*[@id='container-product3']") WebElement button_UsedLaptops;
@@ -21,7 +21,7 @@ public class Products_Page extends BasePage {
 
     public Products_Page() throws IOException {
         super();
-        PageFactory.initElements(driver, this);
+        //PageFactory.initElements(driver, this);
     }
 
     public void clickOnProceedButton_Popup() throws InterruptedException {
