@@ -2,27 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="089c2144-f70f-41c6-9710-84f7cc9afd38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Section49_lecture124.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/Main_Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Runners/Main_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/cucumber.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/cucumber/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/cucumber/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/cucumber/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/cucumber/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/cucumber/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/Section50_lecture133.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Data/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Drivers/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Drivers/operadriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Features/ContactUs.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Features/Products.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Page_Objects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Page_Objects/ContactUs_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Page_Objects/Products_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Runners/Main_Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Step_Definitions/ContactUs_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Step_Definitions/MasterHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Step_Definitions/Products_Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section50/Section50_lecture133/src/test/java/Utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Data/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Data/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Step_Definitions/Products_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/src/test/java/Step_Definitions/Products_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Step_Definitions/Products_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance/target/test-classes/Step_Definitions/Products_Steps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Products.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Products.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Page_Objects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page_Objects/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Page_Objects/ContactUs_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page_Objects/ContactUs_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Page_Objects/Products_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Page_Objects/Products_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/Main_Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Main_Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Step_Definitions/ContactUs_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Step_Definitions/ContactUs_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Step_Definitions/MasterHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Step_Definitions/MasterHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Step_Definitions/MasterHooks.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Step_Definitions/Products_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Step_Definitions/Products_Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Page_Objects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Page_Objects/BasePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Page_Objects/ContactUs_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Page_Objects/ContactUs_Page.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Page_Objects/Products_Page.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Page_Objects/Products_Page.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runners/Main_Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runners/Main_Runner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Step_Definitions/ContactUs_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Step_Definitions/ContactUs_Steps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Step_Definitions/MasterHooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Step_Definitions/MasterHooks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Step_Definitions/Products_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Step_Definitions/Products_Steps.class" afterDir="false" />
@@ -53,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Section47/Section47-lecture114_secondChance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -148,7 +178,9 @@
       <updated>1571059765231</updated>
       <workItem from="1571059768885" duration="11872000" />
       <workItem from="1571081636474" duration="4683000" />
-      <workItem from="1571143354386" duration="15110000" />
+      <workItem from="1571143354386" duration="9602000" />
+      <workItem from="1571257880910" duration="1734000" />
+      <workItem from="1571259772400" duration="163000" />
     </task>
     <servers />
   </component>
@@ -172,18 +204,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Step_Definitions/MasterHooks.java</url>
-          <line>13</line>
-          <properties class="Step_Definitions.MasterHooks">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CucumberJavaRunConfigurationType">
         <watch expression="((NullPointerException)t).stackTrace[1]" custom="java.lang.NullPointerException" />

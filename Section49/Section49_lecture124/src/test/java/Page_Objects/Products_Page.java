@@ -21,7 +21,7 @@ public class Products_Page extends BasePage {
 
     public Products_Page() throws IOException {
         super();
-        //PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver, this);
     }
 
     public void clickOnProceedButton_Popup() throws InterruptedException {

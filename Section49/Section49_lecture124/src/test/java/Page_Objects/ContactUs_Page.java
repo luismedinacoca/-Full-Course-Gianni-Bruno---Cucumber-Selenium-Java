@@ -1,13 +1,11 @@
 package Page_Objects;
 
-import Utils.DriverFactory;
 import cucumber.api.DataTable;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -57,7 +55,7 @@ public class ContactUs_Page extends BasePage{
     }
 
     public void confirmContactUsFormSubmissionWasSuccessful() throws Exception {
-        WebElement thanksContactUsPage = driver.findElement(By.xpath(".//*[@id='contact_reply']/h1"));
+        WebElement thanksContactUsPage = getDriver().findElement(By.xpath(".//*[@id='contact_reply']/h1"));
         WaitUntilWebElementIsVisible(thanksContactUsPage);
         Assert.assertEquals("thankyouforyourmessage!", thanksContactUsPage.getText().toLowerCase().replaceAll("[ ()0-9]", ""));
     }

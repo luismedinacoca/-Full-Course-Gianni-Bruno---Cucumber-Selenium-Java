@@ -22,17 +22,10 @@ import static Utils.Constant.IE_DRIVER_DIRECTORY;
 public class DriverFactory {
 
     public static WebDriver driver;
+    /**adding new attribute related to each page**/
+    public static ContactUs_Page contactUsPage;
+    public static Products_Page productsPage;
 
-    /**Singleton attribute:**/
-    private static DriverFactory instance;
-
-    /**getInstance method:*/
-    public static DriverFactory getInstance(){
-        if(instance == null){
-            instance = new DriverFactory();
-        }
-        return instance;
-    }
 
     public WebDriver getDriver(){
 
@@ -68,7 +61,6 @@ public class DriverFactory {
                         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
                         capabilities.setCapability("marionette", true);
                         driver = new FirefoxDriver();
-                        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
                     }
                     break;
                 case "chrome":
@@ -77,7 +69,6 @@ public class DriverFactory {
                         //Chrome options:
                         driver = new ChromeDriver();
                         driver.manage().window().maximize();
-                        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
                     }
                     break;
                 case "opera":
@@ -86,7 +77,6 @@ public class DriverFactory {
                         //Opera options:
                         driver = new OperaDriver();
                         driver.manage().window().maximize();
-                        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
                     }
                     break;
                 case "ie":
@@ -96,13 +86,17 @@ public class DriverFactory {
                         capabilities.setCapability("ignoreZoomSetting", true);
                         driver = new InternetExplorerDriver(capabilities);
                         driver.manage().window().maximize();
-                        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
                     }
                     break;
             }
         } catch(Exception e){
             System.out.println("Unable to load browser: " + e.getMessage());
+        } finally{
+            driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+            contactUsPage = PageFactory.initElements(driver, ContactUs_Page.class);
+            productsPage = PageFactory.initElements(driver, Products_Page.class);
         }
+
         return driver;
     }
 }

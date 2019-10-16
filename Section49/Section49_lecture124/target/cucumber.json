@@ -3,16 +3,38 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 5094347014,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 2,
         "name": "Submit valid data via contact us form",
         "description": "",
         "id": "submit-data-to-webdriveruniversity.com-using-contact-us-form;submit-valid-data-via-contact-us-form",
+        "after": [
+          {
+            "result": {
+              "duration": 941507827,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 11559248361,
+              "duration": 6372662984,
               "status": "passed"
             },
             "line": 3,
@@ -30,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 225527384,
+              "duration": 298388009,
               "status": "passed"
             },
             "line": 4,
@@ -42,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 197949883,
+              "duration": 203855166,
               "status": "passed"
             },
             "line": 5,
@@ -65,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 216337469,
+              "duration": 235348131,
               "status": "passed"
             },
             "line": 7,
@@ -77,7 +99,7 @@
           },
           {
             "result": {
-              "duration": 188555802,
+              "duration": 247695381,
               "status": "passed"
             },
             "line": 8,
@@ -98,7 +120,7 @@
           },
           {
             "result": {
-              "duration": 2126906646,
+              "duration": 2053099243,
               "status": "passed"
             },
             "line": 10,
@@ -110,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 46555017,
+              "duration": 74176241,
               "status": "passed"
             },
             "line": 11,
@@ -133,16 +155,38 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3504770737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 8,
         "name": "validate promo code alert is visible when clickin ob the special offers link",
         "description": "",
         "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 824369035,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 10904369458,
+              "duration": 2781166353,
               "status": "passed"
             },
             "line": 3,
@@ -163,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 670020998,
+              "duration": 1760475469,
               "status": "passed"
             },
             "line": 4,
@@ -184,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 728396455,
+              "duration": 1390523055,
               "status": "passed"
             },
             "line": 5,
@@ -197,16 +241,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3552834250,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 9,
         "name": "validate promo code alert is visible when clickin ob the special offers link",
         "description": "",
         "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 845860360,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 95000767,
+              "duration": 2676615649,
               "status": "passed"
             },
             "line": 3,
@@ -227,7 +293,7 @@
           },
           {
             "result": {
-              "duration": 183864581,
+              "duration": 417676357,
               "status": "passed"
             },
             "line": 4,
@@ -248,7 +314,7 @@
           },
           {
             "result": {
-              "duration": 715262868,
+              "duration": 2117884226,
               "status": "passed"
             },
             "line": 5,
@@ -261,16 +327,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3328206041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 10,
         "name": "validate promo code alert is visible when clickin ob the special offers link",
         "description": "",
         "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 843538727,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 68222649,
+              "duration": 2736907228,
               "status": "passed"
             },
             "line": 3,
@@ -291,7 +379,7 @@
           },
           {
             "result": {
-              "duration": 225369763,
+              "duration": 1044080700,
               "status": "passed"
             },
             "line": 4,
@@ -312,7 +400,7 @@
           },
           {
             "result": {
-              "duration": 731254419,
+              "duration": 1872779524,
               "status": "passed"
             },
             "line": 5,
@@ -325,16 +413,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3240134207,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 11,
         "name": "validate promo code alert is visible when clickin ob the special offers link",
         "description": "",
         "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 794229064,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 70278761,
+              "duration": 2968026065,
               "status": "passed"
             },
             "line": 3,
@@ -355,7 +465,7 @@
           },
           {
             "result": {
-              "duration": 202988079,
+              "duration": 1020508580,
               "status": "passed"
             },
             "line": 4,
@@ -376,7 +486,7 @@
           },
           {
             "result": {
-              "duration": 703848995,
+              "duration": 1298041034,
               "status": "passed"
             },
             "line": 5,
@@ -389,16 +499,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3403650648,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 12,
         "name": "validate promo code alert is visible when clickin ob the special offers link",
         "description": "",
         "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 776743825,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 42623685,
+              "duration": 2587776166,
               "status": "passed"
             },
             "line": 3,
@@ -419,7 +551,7 @@
           },
           {
             "result": {
-              "duration": 188527946,
+              "duration": 540979254,
               "status": "passed"
             },
             "line": 4,
@@ -440,7 +572,7 @@
           },
           {
             "result": {
-              "duration": 704528488,
+              "duration": 1912477191,
               "status": "passed"
             },
             "line": 5,
@@ -453,16 +585,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3208623611,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 13,
         "name": "validate promo code alert is visible when clickin ob the special offers link",
         "description": "",
         "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 778765028,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 122826863,
+              "duration": 2733603203,
               "status": "passed"
             },
             "line": 3,
@@ -483,7 +637,7 @@
           },
           {
             "result": {
-              "duration": 248083613,
+              "duration": 858589496,
               "status": "passed"
             },
             "line": 4,
@@ -504,7 +658,7 @@
           },
           {
             "result": {
-              "duration": 723820892,
+              "duration": 1978517843,
               "status": "passed"
             },
             "line": 5,
@@ -517,16 +671,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3324449608,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 14,
         "name": "validate promo code alert is visible when clickin ob the special offers link",
         "description": "",
         "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 791286119,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 87398336,
+              "duration": 2499823162,
               "status": "passed"
             },
             "line": 3,
@@ -547,7 +723,7 @@
           },
           {
             "result": {
-              "duration": 128804081,
+              "duration": 348130335,
               "status": "passed"
             },
             "line": 4,
@@ -568,7 +744,7 @@
           },
           {
             "result": {
-              "duration": 721496085,
+              "duration": 3107858607,
               "status": "passed"
             },
             "line": 5,
@@ -581,16 +757,38 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 3225094369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
         "line": 15,
         "name": "validate promo code alert is visible when clickin ob the special offers link",
         "description": "",
         "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 777955418,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 84895457,
+              "duration": 2731109493,
               "status": "passed"
             },
             "line": 3,
@@ -611,7 +809,7 @@
           },
           {
             "result": {
-              "duration": 167963652,
+              "duration": 1330788611,
               "status": "passed"
             },
             "line": 4,
@@ -632,7 +830,7 @@
           },
           {
             "result": {
-              "duration": 734433969,
+              "duration": 1535339139,
               "status": "passed"
             },
             "line": 5,
