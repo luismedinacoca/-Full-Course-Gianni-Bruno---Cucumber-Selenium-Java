@@ -7,9 +7,9 @@ Feature: Products
       | url                                                            | button                  |
       | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='amp-img']      |
       | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='camera-img']   |
-      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='laptop1!']      |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='laptop1']      |
       | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='laptop2']      |
       | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='nintendo']     |
       | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='graphic-card'] |
-      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='computer!']     |
+      | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='computer']     |
       | http://webdriveruniversity.com/Page-Object-Model/products.html | //*[@id='boombox']      |

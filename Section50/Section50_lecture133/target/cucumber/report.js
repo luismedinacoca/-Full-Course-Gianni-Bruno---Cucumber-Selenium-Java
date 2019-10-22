@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6254773117,
+  "duration": 5698116141,
   "status": "passed"
 });
 formatter.scenario({
@@ -83,55 +83,53 @@ formatter.match({
   "location": "ContactUs_Steps.i_access_contact_us_form(String)"
 });
 formatter.result({
-  "duration": 6350503802,
+  "duration": 6867119662,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Steps.i_enter_a_valid_first_name()"
 });
 formatter.result({
-  "duration": 322332141,
+  "duration": 305291553,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Steps.i_enter_a_valid_last_name(DataTable)"
 });
 formatter.result({
-  "duration": 240046052,
+  "duration": 252127429,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Steps.i_enter_a_valid_email_address()"
 });
 formatter.result({
-  "duration": 305426253,
+  "duration": 192871134,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Steps.i_enter_comments(DataTable)"
 });
 formatter.result({
-  "duration": 227822923,
+  "duration": 177099616,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Steps.i_click_on_the_sumit_button()"
 });
 formatter.result({
-  "duration": 2992463861,
+  "duration": 3175621091,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUs_Steps.the_information_should_successfully_be_submitted_via_the_contact_us_form()"
 });
 formatter.result({
-  "duration": 64718691,
-  "error_message": "java.lang.AssertionError: expected [thankyouforyourmessage!] but found [thankyouforyourmessage]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat Page_Objects.ContactUs_Page.confirmContactUsFormSubmissionWasSuccessful(ContactUs_Page.java:59)\r\n\tat Step_Definitions.ContactUs_Steps.the_information_should_successfully_be_submitted_via_the_contact_us_form(ContactUs_Steps.java:52)\r\n\tat ✽.Then the information should successfully be submitted via the contact us form.(ContactUs.feature:11)\r\n",
-  "status": "failed"
+  "duration": 55799586,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 1459957651,
+  "duration": 792961757,
   "status": "passed"
 });
 formatter.uri("Products.feature");
@@ -198,7 +196,7 @@ formatter.examples({
     {
       "cells": [
         "http://webdriveruniversity.com/Page-Object-Model/products.html",
-        "//*[@id\u003d\u0027laptop1!\u0027]"
+        "//*[@id\u003d\u0027laptop1\u0027]"
       ],
       "line": 10,
       "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;4"
@@ -230,7 +228,7 @@ formatter.examples({
     {
       "cells": [
         "http://webdriveruniversity.com/Page-Object-Model/products.html",
-        "//*[@id\u003d\u0027computer!\u0027]"
+        "//*[@id\u003d\u0027computer\u0027]"
       ],
       "line": 14,
       "id": "products;validate-promo-code-alert-is-visible-when-clickin-ob-the-special-offers-link;;8"
@@ -247,7 +245,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3422534719,
+  "duration": 3258341252,
   "status": "passed"
 });
 formatter.scenario({
@@ -289,7 +287,7 @@ formatter.match({
   "location": "Products_Steps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 2578086592,
+  "duration": 3088462535,
   "status": "passed"
 });
 formatter.match({
@@ -302,22 +300,22 @@ formatter.match({
   "location": "Products_Steps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 436125652,
+  "duration": 763019604,
   "status": "passed"
 });
 formatter.match({
   "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "duration": 3016022582,
+  "duration": 1270857407,
   "status": "passed"
 });
 formatter.after({
-  "duration": 864592453,
+  "duration": 809729067,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3329397888,
+  "duration": 3368514088,
   "status": "passed"
 });
 formatter.scenario({
@@ -359,7 +357,7 @@ formatter.match({
   "location": "Products_Steps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 2514535065,
+  "duration": 2715918383,
   "status": "passed"
 });
 formatter.match({
@@ -372,22 +370,22 @@ formatter.match({
   "location": "Products_Steps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 279092433,
+  "duration": 254780522,
   "status": "passed"
 });
 formatter.match({
   "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "duration": 2435916550,
+  "duration": 2554378714,
   "status": "passed"
 });
 formatter.after({
-  "duration": 770716888,
+  "duration": 793537228,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3273545409,
+  "duration": 3274489366,
   "status": "passed"
 });
 formatter.scenario({
@@ -408,7 +406,7 @@ formatter.step({
 });
 formatter.step({
   "line": 4,
-  "name": "user clicks on \"//*[@id\u003d\u0027laptop1!\u0027]\"",
+  "name": "user clicks on \"//*[@id\u003d\u0027laptop1\u0027]\"",
   "matchedColumns": [
     1
   ],
@@ -429,36 +427,35 @@ formatter.match({
   "location": "Products_Steps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 2977026977,
+  "duration": 3014442856,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "//*[@id\u003d\u0027laptop1!\u0027]",
+      "val": "//*[@id\u003d\u0027laptop1\u0027]",
       "offset": 16
     }
   ],
   "location": "Products_Steps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 15385046202,
-  "error_message": "java.lang.AssertionError: WebElement is NOT visible, Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id\u003d\u0027laptop1!\u0027] (tried for 15 second(s) with 500 MILLISECONDS interval)\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat Page_Objects.BasePage.WaitUntilWebElementIsVisibleUsingByLocator(BasePage.java:230)\r\n\tat Step_Definitions.Products_Steps.user_clicks_on(Products_Steps.java:23)\r\n\tat ✽.When user clicks on \"//*[@id\u003d\u0027laptop1!\u0027]\"(Products.feature:4)\r\n",
-  "status": "failed"
+  "duration": 1270333418,
+  "status": "passed"
 });
 formatter.match({
   "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2022472306,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 1101521721,
+  "duration": 790123539,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3419267720,
+  "duration": 3290384653,
   "status": "passed"
 });
 formatter.scenario({
@@ -500,7 +497,7 @@ formatter.match({
   "location": "Products_Steps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 2620461682,
+  "duration": 2935801773,
   "status": "passed"
 });
 formatter.match({
@@ -513,22 +510,22 @@ formatter.match({
   "location": "Products_Steps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 672337695,
+  "duration": 410253409,
   "status": "passed"
 });
 formatter.match({
   "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "duration": 1555115332,
+  "duration": 2012374754,
   "status": "passed"
 });
 formatter.after({
-  "duration": 829418869,
+  "duration": 964413501,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3246623777,
+  "duration": 3359876373,
   "status": "passed"
 });
 formatter.scenario({
@@ -570,7 +567,7 @@ formatter.match({
   "location": "Products_Steps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 2699518853,
+  "duration": 3008491732,
   "status": "passed"
 });
 formatter.match({
@@ -583,22 +580,22 @@ formatter.match({
   "location": "Products_Steps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 859780989,
+  "duration": 269275213,
   "status": "passed"
 });
 formatter.match({
   "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "duration": 1838717037,
+  "duration": 1456878595,
   "status": "passed"
 });
 formatter.after({
-  "duration": 913850282,
+  "duration": 829206945,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3262401994,
+  "duration": 3366328213,
   "status": "passed"
 });
 formatter.scenario({
@@ -640,7 +637,7 @@ formatter.match({
   "location": "Products_Steps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 2845516910,
+  "duration": 2663178106,
   "status": "passed"
 });
 formatter.match({
@@ -653,22 +650,22 @@ formatter.match({
   "location": "Products_Steps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 2041979101,
+  "duration": 983915358,
   "status": "passed"
 });
 formatter.match({
   "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "duration": 1349689609,
+  "duration": 1407029428,
   "status": "passed"
 });
 formatter.after({
-  "duration": 834979292,
+  "duration": 750196672,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3209737882,
+  "duration": 3320825759,
   "status": "passed"
 });
 formatter.scenario({
@@ -689,7 +686,7 @@ formatter.step({
 });
 formatter.step({
   "line": 4,
-  "name": "user clicks on \"//*[@id\u003d\u0027computer!\u0027]\"",
+  "name": "user clicks on \"//*[@id\u003d\u0027computer\u0027]\"",
   "matchedColumns": [
     1
   ],
@@ -710,36 +707,35 @@ formatter.match({
   "location": "Products_Steps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 2946235369,
+  "duration": 2622824218,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "//*[@id\u003d\u0027computer!\u0027]",
+      "val": "//*[@id\u003d\u0027computer\u0027]",
       "offset": 16
     }
   ],
   "location": "Products_Steps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 15054642296,
-  "error_message": "java.lang.AssertionError: WebElement is NOT visible, Exception: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id\u003d\u0027computer!\u0027] (tried for 15 second(s) with 500 MILLISECONDS interval)\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat Page_Objects.BasePage.WaitUntilWebElementIsVisibleUsingByLocator(BasePage.java:230)\r\n\tat Step_Definitions.Products_Steps.user_clicks_on(Products_Steps.java:23)\r\n\tat ✽.When user clicks on \"//*[@id\u003d\u0027computer!\u0027]\"(Products.feature:4)\r\n",
-  "status": "failed"
+  "duration": 961166247,
+  "status": "passed"
 });
 formatter.match({
   "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1245575092,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded2.png");
 formatter.after({
-  "duration": 1173231756,
+  "duration": 728235308,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3293106859,
+  "duration": 3343004688,
   "status": "passed"
 });
 formatter.scenario({
@@ -781,7 +777,7 @@ formatter.match({
   "location": "Products_Steps.user_navigates_to_website(String)"
 });
 formatter.result({
-  "duration": 2673625806,
+  "duration": 3094009912,
   "status": "passed"
 });
 formatter.match({
@@ -794,18 +790,18 @@ formatter.match({
   "location": "Products_Steps.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 344084402,
+  "duration": 562805212,
   "status": "passed"
 });
 formatter.match({
   "location": "Products_Steps.user_should_be_presented_with_a_promo_alert()"
 });
 formatter.result({
-  "duration": 2055449085,
+  "duration": 1344405637,
   "status": "passed"
 });
 formatter.after({
-  "duration": 792375707,
+  "duration": 843011211,
   "status": "passed"
 });
 });

@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
         features ={"src/test/java/Features"},
         //Step files
         glue={"Step_Definitions"},
-        tags={},
         dryRun = false, //when dryRun is true, execute the cucumber steps but they are skipped
         monochrome = true,
         plugin ={"pretty",

@@ -56,6 +56,6 @@ public class ContactUs_Page extends BasePage{
     public void confirmContactUsFormSubmissionWasSuccessful() throws Exception {
         WebElement thanksContactUsPage = getDriver().findElement(By.xpath(".//*[@id='contact_reply']/h1"));
         WaitUntilWebElementIsVisible(thanksContactUsPage);
-        Assert.assertEquals("thankyouforyourmessage", thanksContactUsPage.getText().toLowerCase().replaceAll("[ ()0-9]", ""));
+        Assert.assertEquals("thankyouforyourmessage!", thanksContactUsPage.getText().toLowerCase().replaceAll("[ ()0-9]", ""));
     }
 }
