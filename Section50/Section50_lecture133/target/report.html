@@ -44,7 +44,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Oct 22, 2019 05:21:15 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Oct 22, 2019 05:38:01 PM</span>
 				</a>
 			</li>
 			<li>
@@ -70,6 +70,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -120,10 +121,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>31</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='100%'>31</span> others
 				</div>
 			</div>
 		</div>
@@ -135,10 +136,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='93.939%'><span class='strong'>31</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='6.061%'>2</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='100%'>33</span> others
 				</div>
 			</div>
 		</div>
@@ -153,34 +154,34 @@
 			<ul id='test-collection' class='test-collection'>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf skip' status='skip' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Submit data to webdriveruniversity.com using contact us form</span>
-						<span class='test-time'>Oct 22, 2019 05:21:15 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Oct 22, 2019 05:38:02 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 22, 2019 05:21:15 PM</span>
-	<span class='label end-time'>Oct 22, 2019 05:21:32 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 16s+886ms</span>
+	<span class='label start-time'>Oct 22, 2019 05:38:02 PM</span>
+	<span class='label end-time'>Oct 22, 2019 05:38:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 20s+727ms</span>
 </div>
 	<ul class='collapsible node-list' data-collapsible='accordion'>
 		
-				<li class='node level-1  pass' status='pass' test-id='2'>
+				<li class='node level-1  skip' status='skip' test-id='2'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: Submit valid data via contact us form</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:15 PM</span>
-						<span class='node-duration'>0h 0m 16s+777ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:02 PM</span>
+						<span class='node-duration'>0h 0m 20s+680ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-2 leaf pass' status='pass' test-id='3'>
+				<li class='node level-2 leaf skip' status='skip' test-id='3'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given I access "http://webdriveruniversity.com/Contact-Us/contactus.html" contact us form</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:21 PM</span>
-						<span class='node-duration'>0h 0m 6s+875ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+3ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -193,22 +194,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:28 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf pass' status='pass' test-id='4'>
+				<li class='node level-2 leaf skip' status='skip' test-id='4'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When I enter a valid first name</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:28 PM</span>
-						<span class='node-duration'>0h 0m 0s+308ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -221,22 +222,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:28 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf pass' status='pass' test-id='5'>
+				<li class='node level-2 leaf skip' status='skip' test-id='5'>
 					<div class='collapsible-header'>
 						<div class='node-name'>And I enter a valid last name</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:28 PM</span>
-						<span class='node-duration'>0h 0m 0s+255ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+3ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -251,25 +252,25 @@
 										<tbody>
 												<tr class='log' status='info'>
 													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-													<td class='timestamp'>5:21:28 PM</td>
+													<td class='timestamp'>5:38:22 PM</td>
 													<td class='step-details'><table><tr><td>Woods</td><td>Jackson</td><td>Jones</td><td>Medina Coca</td></tr></table></td>
 												</tr>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:28 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf pass' status='pass' test-id='6'>
+				<li class='node level-2 leaf skip' status='skip' test-id='6'>
 					<div class='collapsible-header'>
 						<div class='node-name'>And I enter a valid email address</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:28 PM</span>
-						<span class='node-duration'>0h 0m 0s+193ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -282,22 +283,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:28 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf pass' status='pass' test-id='7'>
+				<li class='node level-2 leaf skip' status='skip' test-id='7'>
 					<div class='collapsible-header'>
 						<div class='node-name'>And I enter comments</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:28 PM</span>
-						<span class='node-duration'>0h 0m 0s+177ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -312,25 +313,25 @@
 										<tbody>
 												<tr class='log' status='info'>
 													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-													<td class='timestamp'>5:21:28 PM</td>
+													<td class='timestamp'>5:38:22 PM</td>
 													<td class='step-details'><table><tr><td>example comment one</td><td>example comment two</td></tr></table></td>
 												</tr>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:29 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf pass' status='pass' test-id='8'>
+				<li class='node level-2 leaf skip' status='skip' test-id='8'>
 					<div class='collapsible-header'>
 						<div class='node-name'>And I click on the sumit button</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:29 PM</span>
-						<span class='node-duration'>0h 0m 3s+176ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -343,22 +344,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:32 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-2 leaf pass' status='pass' test-id='9'>
+				<li class='node level-2 leaf skip' status='skip' test-id='9'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then the information should successfully be submitted via the contact us form.</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:32 PM</span>
-						<span class='node-duration'>0h 0m 0s+56ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -371,10 +372,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:32 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -388,26 +389,26 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='10'>
+				<li class='test displayed active has-leaf skip' status='skip' bdd='false' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>Products</span>
-						<span class='test-time'>Oct 22, 2019 05:21:33 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Oct 22, 2019 05:21:33 PM</span>
-	<span class='label end-time'>Oct 22, 2019 05:22:47 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 1m 14s+261ms</span>
+	<span class='label start-time'>Oct 22, 2019 05:38:22 PM</span>
+	<span class='label end-time'>Oct 22, 2019 05:41:03 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 2m 40s+385ms</span>
 </div>
 	<ul class='collapsible node-list' data-collapsible='accordion'>
 		
-				<li class='node level-1  pass' status='pass' test-id='11'>
+				<li class='node level-1  skip' status='skip' test-id='11'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario Outline: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:33 PM</span>
-						<span class='node-duration'>0h 1m 14s+261ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 2m 40s+384ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -422,7 +423,7 @@
 										<tbody>
 												<tr class='log' status='info'>
 													<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-													<td class='timestamp'>5:21:33 PM</td>
+													<td class='timestamp'>5:38:22 PM</td>
 													<td class='step-details'><table><tr><td>url</td><td>button</td></tr><tr><td>http://webdriveruniversity.com/Page-Object-Model/products.html</td><td>//*[@id='amp-img']</td></tr><tr><td>http://webdriveruniversity.com/Page-Object-Model/products.html</td><td>//*[@id='camera-img']</td></tr><tr><td>http://webdriveruniversity.com/Page-Object-Model/products.html</td><td>//*[@id='laptop1']</td></tr><tr><td>http://webdriveruniversity.com/Page-Object-Model/products.html</td><td>//*[@id='laptop2']</td></tr><tr><td>http://webdriveruniversity.com/Page-Object-Model/products.html</td><td>//*[@id='nintendo']</td></tr><tr><td>http://webdriveruniversity.com/Page-Object-Model/products.html</td><td>//*[@id='graphic-card']</td></tr><tr><td>http://webdriveruniversity.com/Page-Object-Model/products.html</td><td>//*[@id='computer']</td></tr><tr><td>http://webdriveruniversity.com/Page-Object-Model/products.html</td><td>//*[@id='boombox']</td></tr></table></td>
 												</tr>
 										</tbody>
@@ -430,20 +431,20 @@
 								</div>
 						</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-2  pass' status='pass' test-id='12'>
+				<li class='node level-2  skip' status='skip' test-id='12'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:33 PM</span>
-						<span class='node-duration'>0h 0m 8s+386ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:22 PM</span>
+						<span class='node-duration'>0h 0m 20s+34ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-3 leaf pass' status='pass' test-id='13'>
+				<li class='node level-3 leaf skip' status='skip' test-id='13'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html" website</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:36 PM</span>
-						<span class='node-duration'>0h 0m 3s+89ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:42 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -456,22 +457,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:39 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:42 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='14'>
+				<li class='node level-3 leaf skip' status='skip' test-id='14'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When user clicks on "//*[@id='amp-img']"</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:39 PM</span>
-						<span class='node-duration'>0h 0m 0s+764ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:42 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -484,22 +485,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:40 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:42 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='15'>
+				<li class='node level-3 leaf skip' status='skip' test-id='15'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then user should be presented with a promo alert</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:40 PM</span>
-						<span class='node-duration'>0h 0m 1s+271ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:42 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -512,10 +513,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:41 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:38:42 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -524,20 +525,20 @@
 				</li>
 						</ul>
 				</li>
-				<li class='node level-2  pass' status='pass' test-id='16'>
+				<li class='node level-2  skip' status='skip' test-id='16'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:42 PM</span>
-						<span class='node-duration'>0h 0m 8s+900ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:38:42 PM</span>
+						<span class='node-duration'>0h 0m 20s+30ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-3 leaf pass' status='pass' test-id='17'>
+				<li class='node level-3 leaf skip' status='skip' test-id='17'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html" website</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:45 PM</span>
-						<span class='node-duration'>0h 0m 2s+716ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:02 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -550,22 +551,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:48 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:02 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='18'>
+				<li class='node level-3 leaf skip' status='skip' test-id='18'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When user clicks on "//*[@id='camera-img']"</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:48 PM</span>
-						<span class='node-duration'>0h 0m 0s+256ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:02 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -578,22 +579,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:48 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:02 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='19'>
+				<li class='node level-3 leaf skip' status='skip' test-id='19'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then user should be presented with a promo alert</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:48 PM</span>
-						<span class='node-duration'>0h 0m 2s+555ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:02 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -606,10 +607,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:51 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:02 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -618,20 +619,20 @@
 				</li>
 						</ul>
 				</li>
-				<li class='node level-2  pass' status='pass' test-id='20'>
+				<li class='node level-2  skip' status='skip' test-id='20'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:52 PM</span>
-						<span class='node-duration'>0h 0m 9s+590ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:02 PM</span>
+						<span class='node-duration'>0h 0m 20s+49ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-3 leaf pass' status='pass' test-id='21'>
+				<li class='node level-3 leaf skip' status='skip' test-id='21'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html" website</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:55 PM</span>
-						<span class='node-duration'>0h 0m 3s+15ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -644,22 +645,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:58 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='22'>
+				<li class='node level-3 leaf skip' status='skip' test-id='22'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When user clicks on "//*[@id='laptop1']"</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:58 PM</span>
-						<span class='node-duration'>0h 0m 1s+270ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -672,22 +673,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:21:59 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='23'>
+				<li class='node level-3 leaf skip' status='skip' test-id='23'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then user should be presented with a promo alert</div>						
-						<span class='node-time'>Oct 22, 2019 05:21:59 PM</span>
-						<span class='node-duration'>0h 0m 2s+22ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:22 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -700,10 +701,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:01 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:22 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -712,20 +713,20 @@
 				</li>
 						</ul>
 				</li>
-				<li class='node level-2  pass' status='pass' test-id='24'>
+				<li class='node level-2  skip' status='skip' test-id='24'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:02 PM</span>
-						<span class='node-duration'>0h 0m 8s+655ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:22 PM</span>
+						<span class='node-duration'>0h 0m 20s+43ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-3 leaf pass' status='pass' test-id='25'>
+				<li class='node level-3 leaf skip' status='skip' test-id='25'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html" website</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:05 PM</span>
-						<span class='node-duration'>0h 0m 2s+936ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:42 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -738,22 +739,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:08 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:42 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='26'>
+				<li class='node level-3 leaf skip' status='skip' test-id='26'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When user clicks on "//*[@id='laptop2']"</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:08 PM</span>
-						<span class='node-duration'>0h 0m 0s+410ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:42 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -766,22 +767,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:09 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:42 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='27'>
+				<li class='node level-3 leaf skip' status='skip' test-id='27'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then user should be presented with a promo alert</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:09 PM</span>
-						<span class='node-duration'>0h 0m 2s+13ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:42 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -794,10 +795,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:11 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:39:42 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -806,20 +807,20 @@
 				</li>
 						</ul>
 				</li>
-				<li class='node level-2  pass' status='pass' test-id='28'>
+				<li class='node level-2  skip' status='skip' test-id='28'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:12 PM</span>
-						<span class='node-duration'>0h 0m 8s+100ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:39:42 PM</span>
+						<span class='node-duration'>0h 0m 20s+58ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-3 leaf pass' status='pass' test-id='29'>
+				<li class='node level-3 leaf skip' status='skip' test-id='29'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html" website</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:15 PM</span>
-						<span class='node-duration'>0h 0m 3s+9ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:03 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -832,22 +833,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:18 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:03 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='30'>
+				<li class='node level-3 leaf skip' status='skip' test-id='30'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When user clicks on "//*[@id='nintendo']"</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:18 PM</span>
-						<span class='node-duration'>0h 0m 0s+269ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:03 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -860,22 +861,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:18 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:03 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='31'>
+				<li class='node level-3 leaf skip' status='skip' test-id='31'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then user should be presented with a promo alert</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:18 PM</span>
-						<span class='node-duration'>0h 0m 1s+458ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:03 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -888,10 +889,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:20 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:03 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -900,20 +901,20 @@
 				</li>
 						</ul>
 				</li>
-				<li class='node level-2  pass' status='pass' test-id='32'>
+				<li class='node level-2  skip' status='skip' test-id='32'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:20 PM</span>
-						<span class='node-duration'>0h 0m 8s+426ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:03 PM</span>
+						<span class='node-duration'>0h 0m 20s+47ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-3 leaf pass' status='pass' test-id='33'>
+				<li class='node level-3 leaf skip' status='skip' test-id='33'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html" website</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:24 PM</span>
-						<span class='node-duration'>0h 0m 2s+663ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:23 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -926,22 +927,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:26 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:23 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='34'>
+				<li class='node level-3 leaf skip' status='skip' test-id='34'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When user clicks on "//*[@id='graphic-card']"</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:26 PM</span>
-						<span class='node-duration'>0h 0m 0s+985ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:23 PM</span>
+						<span class='node-duration'>0h 0m 0s+0ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -954,22 +955,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:27 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:23 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='35'>
+				<li class='node level-3 leaf skip' status='skip' test-id='35'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then user should be presented with a promo alert</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:27 PM</span>
-						<span class='node-duration'>0h 0m 1s+407ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:23 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -982,10 +983,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:29 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:23 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -994,20 +995,20 @@
 				</li>
 						</ul>
 				</li>
-				<li class='node level-2  pass' status='pass' test-id='36'>
+				<li class='node level-2  skip' status='skip' test-id='36'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:30 PM</span>
-						<span class='node-duration'>0h 0m 8s+155ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:23 PM</span>
+						<span class='node-duration'>0h 0m 20s+41ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-3 leaf pass' status='pass' test-id='37'>
+				<li class='node level-3 leaf skip' status='skip' test-id='37'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html" website</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:33 PM</span>
-						<span class='node-duration'>0h 0m 2s+623ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:43 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -1020,22 +1021,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:36 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:43 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='38'>
+				<li class='node level-3 leaf skip' status='skip' test-id='38'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When user clicks on "//*[@id='computer']"</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:36 PM</span>
-						<span class='node-duration'>0h 0m 0s+962ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:43 PM</span>
+						<span class='node-duration'>0h 0m 0s+5ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -1048,22 +1049,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:37 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:43 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='39'>
+				<li class='node level-3 leaf skip' status='skip' test-id='39'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then user should be presented with a promo alert</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:37 PM</span>
-						<span class='node-duration'>0h 0m 1s+245ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:43 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -1076,10 +1077,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:38 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:40:43 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -1088,20 +1089,20 @@
 				</li>
 						</ul>
 				</li>
-				<li class='node level-2  pass' status='pass' test-id='40'>
+				<li class='node level-2  skip' status='skip' test-id='40'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Scenario: validate promo code alert is visible when clickin ob the special offers link</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:39 PM</span>
-						<span class='node-duration'>0h 0m 8s+348ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:40:43 PM</span>
+						<span class='node-duration'>0h 0m 20s+55ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<ul class='collapsible node-list' data-collapsible='accordion'>
-				<li class='node level-3 leaf pass' status='pass' test-id='41'>
+				<li class='node level-3 leaf skip' status='skip' test-id='41'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Given user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html" website</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:42 PM</span>
-						<span class='node-duration'>0h 0m 3s+94ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:41:03 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -1114,22 +1115,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:45 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:41:03 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='42'>
+				<li class='node level-3 leaf skip' status='skip' test-id='42'>
 					<div class='collapsible-header'>
 						<div class='node-name'>When user clicks on "//*[@id='boombox']"</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:45 PM</span>
-						<span class='node-duration'>0h 0m 0s+564ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:41:03 PM</span>
+						<span class='node-duration'>0h 0m 0s+2ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -1142,22 +1143,22 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:46 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:41:03 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
 								</div>
 						</div>
 				</li>
-				<li class='node level-3 leaf pass' status='pass' test-id='43'>
+				<li class='node level-3 leaf skip' status='skip' test-id='43'>
 					<div class='collapsible-header'>
 						<div class='node-name'>Then user should be presented with a promo alert</div>						
-						<span class='node-time'>Oct 22, 2019 05:22:46 PM</span>
-						<span class='node-duration'>0h 0m 1s+345ms</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='node-time'>Oct 22, 2019 05:41:03 PM</span>
+						<span class='node-duration'>0h 0m 0s+1ms</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 						<div class='collapsible-body'>
 								<div class='node-steps'>
@@ -1170,10 +1171,10 @@
 											</tr>
 										</thead>
 										<tbody>
-												<tr class='log' status='pass'>
-													<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-													<td class='timestamp'>5:22:47 PM</td>
-													<td class='step-details'>passed</td>
+												<tr class='log' status='skip'>
+													<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+													<td class='timestamp'>5:41:03 PM</td>
+													<td class='step-details'>skipped</td>
 												</tr>
 										</tbody>
 									</table>
@@ -1234,19 +1235,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Oct 22, 2019 05:21:15 PM</div>
+					<div class='panel-lead'>Oct 22, 2019 05:38:01 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Oct 22, 2019 05:22:48 PM</div>
+			 		<div class='panel-lead'>Oct 22, 2019 05:41:03 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>93,004ms</div>
+					<div class='panel-lead'>181,247ms</div>
 				</div>
 			</div>
 		</div>
@@ -1259,22 +1260,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 31,
+				passParent: 0,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 0,
-				exceptionsParent: 0,
+				skipParent: 31,
+				exceptionsParent: 31,
 				
-				passChild: 31,
+				passChild: 0,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 0,
+				skipChild: 31,
 				infoChild: 2,
-				exceptionsChild: 0,
+				exceptionsChild: 31,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
