@@ -2,7 +2,9 @@ package Runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
+import org.testng.annotations.AfterClass;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -18,5 +20,11 @@ import org.junit.runner.RunWith;
                 "com.cucumber.listener.ExtentCucumberFormatter:target/report.html"
         }
 )
-public class Main_Runner {
+public class Main_Runner extends AbstractTestNGCucumberTests {
+        /**
+        @AfterClass
+        public static void writeExtentReport() {
+                Reporter.loadXMLConfig(new File(System.getProperty("user.dir") + "\\target\\ReportsConfig.xml"));
+        }
+        */
 }

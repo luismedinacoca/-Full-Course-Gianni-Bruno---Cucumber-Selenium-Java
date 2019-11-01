@@ -1,6 +1,8 @@
 package Page_Objects;
 
 import Utils.DriverFactory;
+import com.cucumber.listener.Reporter;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -9,12 +11,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.awt.*;
+import java.io.File;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 
 public class BasePage extends DriverFactory {
     protected WebDriverWait wait;
     protected JavascriptExecutor jsExecutor;
+    private static String screenshotName;
 
     public BasePage() throws IOException {
         this.wait = new WebDriverWait(driver, 15);
@@ -342,4 +347,27 @@ public class BasePage extends DriverFactory {
     }
     /**********************************************************************************/
     /**********************************************************************************/
+
+
+    /**********************************************************************************
+     ** EXTENT REPORT *****************************************************************
+     *********************************************************************************
+    public static String returnDateStamp(String fileExtension){
+        Date d = new Date();
+        String date = d.toString().replace(":","_").replace(" ", "_") + fileExtension;
+        return date;
+    }
+
+    public static void captureScreenshot(){
+        File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        screenshotName = returnDateStamp(".jpg");
+        FileUtils.copyFile(srcFile, new File(System.getProperty("user.dir") + "\\output\\imgs\\" +screenshotName);
+        Reporter.addStepLog("Taking a screenshot!");
+        Reporter.addStepLog("<br>");
+        Reporter.addStepLog("<a target=\"_blank\", href=@="+ returnScreenshotName() + "><img src=" + returnScreenshotName() + " height=200 width=300></img></a>");
+    }
+
+    public static String returnScreenshotName(){
+        return (System.getProperty("user.dir") + "\\output\\imgs\\" +screenshotName).toString();
+    } **/
 }

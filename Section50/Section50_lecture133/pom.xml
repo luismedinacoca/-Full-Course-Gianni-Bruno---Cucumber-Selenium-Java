@@ -11,31 +11,64 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <build>
         <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.1</version>
+                    <version>3.7.0</version>
                     <configuration>
                         <source>1.8</source>
                         <target>1.8</target>
                         <fork>true</fork>
-                        <executable>${env.JAVA_HOME}\bin\javac.exe</executable>
+                        <executable>${env.JAVA_HOME}\bin\javac.exe</executable>   <!-- ****** commented ******* -->
                     </configuration>
                 </plugin>
+
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>2.19.1</version>
+                    <version>3.0.0-M3</version>
                     <configuration>
                         <suiteXmlFiles>
                             <suiteXmlFile>testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <!--testErrorIgnore>false</testErrorIgnore-->
-                        <testFailureIgnore>false</testFailureIgnore>
+                        <testFailureIgnore>true</testFailureIgnore>
+                        <forkCount>3</forkCount>
+                        <reuseForks>true</reuseForks>
+                        <includes>${include.runners}
+                            <include>**/Parallel*IT.class</include>
+                        </includes>
                     </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>net.masterthought</groupId>
+                    <artifactId>maven-cucumber-reporting</artifactId>
+                    <version>3.15.0</version>
+                    <executions>
+                        <execution>
+                            <id>execution</id>
+                            <phase>test</phase>
+                            <goals>
+                                <goal>generate</goal>
+                            </goals>
+                            <configuration>
+                                <projectName>ExecuteAutomation</projectName>
+                                <outputDirectory>D:\Programming\[Cucumber]\Gianni Bruno - [Full course] Cucumber Selenium Java\Section50\Section50_lecture133\target\output</outputDirectory>
+                                <cucumberOutput>D:\Programming\[Cucumber]\Gianni Bruno - [Full course] Cucumber Selenium Java\Section50\Section50_lecture133\target\CucumberJson\cucumber.json</cucumberOutput>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>2.0.2</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -124,7 +157,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.0.0</version>
+            <version>6.14.3</version>
             <scope>test</scope>
         </dependency>
 
@@ -153,7 +186,7 @@
         <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
-            <version>3.6.0</version>
+            <version>4.10.0</version>
         </dependency>
         <dependency>
             <groupId>com.vimalselvam</groupId>
@@ -167,7 +200,5 @@
             <artifactId>snakeyaml</artifactId>
             <version>1.25</version>
         </dependency>
-
     </dependencies>
-    
 </project>
