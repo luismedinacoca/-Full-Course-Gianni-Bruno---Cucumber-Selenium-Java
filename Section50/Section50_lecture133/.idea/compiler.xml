@@ -9,5 +9,8 @@
         <module name="Section50_lecture133" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Java-Selenium-Cucumber-TestNG-Maven" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
